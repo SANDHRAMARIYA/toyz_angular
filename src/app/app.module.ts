@@ -13,6 +13,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { OrderComponent } from './order/order.component';
 import { PaymentComponent } from './payment/payment.component';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -38,6 +39,12 @@ path:"home",component:HomeComponent
     },
     {
       path:"payment",component:PaymentComponent
+    },
+    {
+      path:"about",component:AboutComponent
+    },
+    {
+      path:"contact",component:ContactComponent
     }
   ]
     
@@ -55,7 +62,8 @@ path:"home",component:HomeComponent
     GalleryComponent,
     OrderComponent,
     PaymentComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
