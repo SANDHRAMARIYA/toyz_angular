@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
 import { BoysComponent } from './boys/boys.component';
 import { GirlsComponent } from './girls/girls.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 
 
@@ -25,6 +26,9 @@ path:"home",component:HomeComponent
     },
     {
       path:"girls",component:GirlsComponent
+    },
+    {
+      path:"gallery",component:GalleryComponent
     }
   ]
     
@@ -38,7 +42,8 @@ path:"home",component:HomeComponent
     NavbarComponent,
     HomeComponent,
     BoysComponent,
-    GirlsComponent
+    GirlsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
