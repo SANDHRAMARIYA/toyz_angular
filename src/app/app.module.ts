@@ -10,6 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BoysComponent } from './boys/boys.component';
 import { GirlsComponent } from './girls/girls.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { OrderComponent } from './order/order.component';
 
 
 
@@ -43,7 +44,8 @@ path:"home",component:HomeComponent
     HomeComponent,
     BoysComponent,
     GirlsComponent,
-    GalleryComponent
+    GalleryComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,
