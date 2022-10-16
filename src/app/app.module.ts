@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
+import { BoysComponent } from './boys/boys.component';
 
 
 
@@ -17,6 +18,9 @@ import { RouterModule, Routes } from '@angular/router';
     },
     {
 path:"home",component:HomeComponent
+    },
+    {
+      path:"boys",component:BoysComponent
     }
   ]
     
@@ -28,7 +32,8 @@ path:"home",component:HomeComponent
     AppComponent,
     LoginComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    BoysComponent
   ],
   imports: [
     BrowserModule,
