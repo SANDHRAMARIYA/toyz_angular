@@ -12,6 +12,7 @@ import { GirlsComponent } from './girls/girls.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { OrderComponent } from './order/order.component';
 import { PaymentComponent } from './payment/payment.component';
+import { AboutComponent } from './about/about.component';
 
 
 
@@ -53,7 +54,8 @@ path:"home",component:HomeComponent
     GirlsComponent,
     GalleryComponent,
     OrderComponent,
-    PaymentComponent
+    PaymentComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
