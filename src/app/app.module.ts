@@ -11,6 +11,7 @@ import { BoysComponent } from './boys/boys.component';
 import { GirlsComponent } from './girls/girls.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { OrderComponent } from './order/order.component';
+import { PaymentComponent } from './payment/payment.component';
 
 
 
@@ -30,6 +31,12 @@ path:"home",component:HomeComponent
     },
     {
       path:"gallery",component:GalleryComponent
+    },
+    {
+      path:"order",component:OrderComponent
+    },
+    {
+      path:"payment",component:PaymentComponent
     }
   ]
     
@@ -45,7 +52,8 @@ path:"home",component:HomeComponent
     BoysComponent,
     GirlsComponent,
     GalleryComponent,
-    OrderComponent
+    OrderComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,
