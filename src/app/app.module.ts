@@ -14,6 +14,7 @@ import { OrderComponent } from './order/order.component';
 import { PaymentComponent } from './payment/payment.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { LogoutComponent } from './logout/logout.component';
 
 
 
@@ -45,6 +46,9 @@ path:"home",component:HomeComponent
     },
     {
       path:"contact",component:ContactComponent
+    },
+    {
+      path:"logout",component:LogoutComponent
     }
   ]
     
@@ -63,7 +67,8 @@ path:"home",component:HomeComponent
     OrderComponent,
     PaymentComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
